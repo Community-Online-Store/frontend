@@ -1,0 +1,14 @@
+@use 'mixins' as *;
+@use 'variables' as *;
+
+
+.layout{
+
+  background-color: $background-color;
+  margin: 0 20px;
+
+  @include xl{
+    max-width: 1137px;
+    margin: 0 auto;
+  }
+}

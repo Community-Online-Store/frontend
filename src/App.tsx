@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
-import "./scss/reset.scss";
+import "./scss/globals.scss";
 import Home from "./pages/Home";
 import Men from "./pages/Men";
 
