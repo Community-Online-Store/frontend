@@ -1,0 +1,54 @@
+@use 'variables' as *;
+
+.headerLogo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo{
+  width: 36px;
+  height: 36px;
+  background: $brand-color;
+  align-self: baseline;
+  margin-bottom: 12px;
+}
+
+.logoText{
+  font-size: 20px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0 10px;
+  border-bottom: 1px solid $grey-dark
+}
+
+.linkList{
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+
+}
+.headerIcons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerIconLink{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerIcon{
+  font-size: 20px;
+}
+.headerLink{
+  font-size: 18px;
+}

@@ -4,11 +4,10 @@
 
 .layout{
 
-  background-color: $background-color;
   margin: 0 20px;
 
-  @include xl{
-    max-width: 1137px;
+  @include xl2{
+    max-width: 1392px;
     margin: 0 auto;
   }
 }
