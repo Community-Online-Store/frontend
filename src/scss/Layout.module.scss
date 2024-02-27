@@ -3,11 +3,18 @@
 
 
 .layout{
+  margin: 0 20px;
+  @include xl2{
+    max-width: 1392px;
+    margin: 0 auto;
+  }
+}
+
+.wrapper{
 
   margin: 0 20px;
 
   @include xl2{
-    max-width: 1392px;
     margin: 0 auto;
   }
 }

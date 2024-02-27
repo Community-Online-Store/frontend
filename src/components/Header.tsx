@@ -24,7 +24,7 @@ const links = [
 
 export default function Header() {
   return (
-    <div>
+    <div className={styles.headerContainer}>
       <nav className={styles.header}>
         <Link to="/">
           <div className={styles.headerLogo}>
