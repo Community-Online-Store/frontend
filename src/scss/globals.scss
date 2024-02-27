@@ -1,3 +1,14 @@
 @import 'reset';
 @import 'mixins';
 @import 'variables';
+
+* {
+  color: $neutral-900;
+  font-size: 16px;
+}
+a{
+  text-decoration: none;
+}
+a.active{
+  color: $brand-color
+}
